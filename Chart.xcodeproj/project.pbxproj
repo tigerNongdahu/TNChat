@@ -15,6 +15,10 @@
 		EE47D397206C8E9B006FEA3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47D396206C8E9B006FEA3C /* main.m */; };
 		EE47D3A1206C8E9B006FEA3C /* ChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47D3A0206C8E9B006FEA3C /* ChartTests.m */; };
 		EE47D3AC206C8E9B006FEA3C /* ChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47D3AB206C8E9B006FEA3C /* ChartUITests.m */; };
+		EE47D3BB206C8EBF006FEA3C /* ChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47D3BA206C8EBF006FEA3C /* ChartView.m */; };
+		EE47D3BE206C9007006FEA3C /* YAxleView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47D3BD206C9007006FEA3C /* YAxleView.m */; };
+		EE4C7C882076684C0029CCD3 /* TNCicleChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4C7C872076684C0029CCD3 /* TNCicleChartView.m */; };
+		EE4C7C8B207725300029CCD3 /* TNLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4C7C8A207725300029CCD3 /* TNLineChartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		EE47D3A7206C8E9B006FEA3C /* ChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE47D3AB206C8E9B006FEA3C /* ChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartUITests.m; sourceTree = "<group>"; };
 		EE47D3AD206C8E9B006FEA3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE47D3B9206C8EBF006FEA3C /* ChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartView.h; sourceTree = "<group>"; };
+		EE47D3BA206C8EBF006FEA3C /* ChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartView.m; sourceTree = "<group>"; };
+		EE47D3BC206C9007006FEA3C /* YAxleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAxleView.h; sourceTree = "<group>"; };
+		EE47D3BD206C9007006FEA3C /* YAxleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YAxleView.m; sourceTree = "<group>"; };
+		EE4C7C862076684C0029CCD3 /* TNCicleChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNCicleChartView.h; sourceTree = "<group>"; };
+		EE4C7C872076684C0029CCD3 /* TNCicleChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNCicleChartView.m; sourceTree = "<group>"; };
+		EE4C7C89207725300029CCD3 /* TNLineChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNLineChartView.h; sourceTree = "<group>"; };
+		EE4C7C8A207725300029CCD3 /* TNLineChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNLineChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				EE47D388206C8E9B006FEA3C /* AppDelegate.m */,
 				EE47D38A206C8E9B006FEA3C /* ViewController.h */,
 				EE47D38B206C8E9B006FEA3C /* ViewController.m */,
+				EE47D3B9206C8EBF006FEA3C /* ChartView.h */,
+				EE47D3BA206C8EBF006FEA3C /* ChartView.m */,
+				EE4C7C862076684C0029CCD3 /* TNCicleChartView.h */,
+				EE4C7C872076684C0029CCD3 /* TNCicleChartView.m */,
+				EE4C7C89207725300029CCD3 /* TNLineChartView.h */,
+				EE4C7C8A207725300029CCD3 /* TNLineChartView.m */,
+				EE47D3BC206C9007006FEA3C /* YAxleView.h */,
+				EE47D3BD206C9007006FEA3C /* YAxleView.m */,
 				EE47D38D206C8E9B006FEA3C /* Main.storyboard */,
 				EE47D390206C8E9B006FEA3C /* Assets.xcassets */,
 				EE47D392206C8E9B006FEA3C /* LaunchScreen.storyboard */,
@@ -266,8 +286,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE47D38C206C8E9B006FEA3C /* ViewController.m in Sources */,
+				EE47D3BE206C9007006FEA3C /* YAxleView.m in Sources */,
+				EE4C7C882076684C0029CCD3 /* TNCicleChartView.m in Sources */,
 				EE47D397206C8E9B006FEA3C /* main.m in Sources */,
 				EE47D389206C8E9B006FEA3C /* AppDelegate.m in Sources */,
+				EE4C7C8B207725300029CCD3 /* TNLineChartView.m in Sources */,
+				EE47D3BB206C8EBF006FEA3C /* ChartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
